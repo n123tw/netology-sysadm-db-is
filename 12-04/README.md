@@ -61,7 +61,7 @@ if __name__ == '__main__':
   <summary>rabbitmqctl cluster_status@rabbit1</summary>
 
   ```
-      Cluster status of node rabbit@rabbit2 ...
+      Cluster status of node rabbit@rabbit1 ...
     Basics
 
     Cluster name: rabbit@rabbit2
@@ -128,7 +128,6 @@ if __name__ == '__main__':
     Flag: tracking_records_in_ets, state: enabled
     Flag: user_limits, state: enabled
     Flag: virtual_host_metadata, state: enabled
-
   ```
 </details>
 
