@@ -205,3 +205,11 @@ if __name__ == '__main__':
     Flag: virtual_host_metadata, state: enabled
   ```
 </details>
+
+![Скриншот-6](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/6.jpg)
+
+![Скриншот-7](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/7.jpg)
+
+![Скриншот-8](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/8.jpg)
+
+![Скриншот-9](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/9.jpg)
