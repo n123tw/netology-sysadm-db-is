@@ -1,11 +1,11 @@
 # Домашнее задание к занятию «Очереди RabbitMQ» Лазарев Даниил
 ## Задание 1
 
-![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/1.jpg)
+![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/1.jpg)
 
 ## Задание 2
 
-![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/2.jpg)
+![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/2.jpg)
 
 Изменил consumer.py, прикладываю ниже. Предложенный consumer.py не выполнялся с ошибкой:
 
@@ -16,7 +16,7 @@ Traceback (most recent call last):
 TypeError: basic_consume() got multiple values for argument 'queue'
 ```
 
-![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/3.jpg)
+![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/3.jpg)
 
 ### modified consumer.py:
 
@@ -53,9 +53,9 @@ if __name__ == '__main__':
 
 ## Задание 3
 
-![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/4.jpg)
+![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/4.jpg)
 
-![Скриншот-5](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/5.jpg)
+![Скриншот-5](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/5.jpg)
 
 <details>
   <summary>rabbitmqctl cluster_status@rabbit1</summary>
@@ -205,10 +205,10 @@ if __name__ == '__main__':
   ```
 </details>
 
-![Скриншот-6](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/6.jpg)
+![Скриншот-6](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/6.jpg)
 
-![Скриншот-7](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/7.jpg)
+![Скриншот-7](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/7.jpg)
 
-![Скриншот-8](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/8.jpg)
+![Скриншот-8](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/8.jpg)
 
-![Скриншот-9](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-04/img/9.jpg)
+![Скриншот-9](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-04/img/9.jpg)

@@ -22,12 +22,12 @@
 10) Сокращение времени ожидания в играх и потоковых медиа: Кеширование текстур, аудио и видеофайлов может существенно улучшить игровой опыт и потоковое воспроизведение медиа.
 ## Задание 2
 
-![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-02/img/1.jpg)
+![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-02/img/1.jpg)
 
 ## Задание 3
 
-![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-02/img/2.jpg)
+![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-02/img/2.jpg)
 
 ## Задания 4,5
 
-![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-02/img/3.jpg)
+![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-02/img/3.jpg)

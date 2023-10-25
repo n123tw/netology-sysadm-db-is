@@ -1,15 +1,15 @@
 # Домашнее задание к занятию «ELK» Лазарев Даниил
 ## Задание 1
 
-![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-03/img/1.jpg)
+![Скриншот-1](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-03/img/1.jpg)
 
 ## Задание 2
 
-![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-03/img/2.jpg)
+![Скриншот-2](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-03/img/2.jpg)
 
 ## Задание 3
 
-![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-03/img/3.jpg)
+![Скриншот-3](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-03/img/3.jpg)
 
 ### docker-compose.yaml
 
@@ -105,7 +105,7 @@ output {
 
 ## Заданиe 4
 
-![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-03/img/4.jpg)
+![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/11-03/img/4.jpg)
 
 ### docker-compose.yaml
 
