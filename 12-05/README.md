@@ -37,12 +37,33 @@ WHERE DATE(p.payment_date) = '2005-07-30'
 GROUP BY customer_name;
 ```
 
+
+
 Первые 200 строк выполнения оптимизированного запроса: 659 мс, т.е. в 537 раз
 
-![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-05/img/2.jpg)
+![Скриншот-4](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-05/img/4.jpg)
 
 EXPLAIN ANALYZE оптимизированного запроса (200 строк): 1.452 с
 
-![Скриншот-5](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-05/img/2.jpg)
+![Скриншот-5](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-05/img/5.jpg)
 
 
+### Доработка
+
+Кажется, сложилось впечатление, что индекс idx_payment_date не использовался в оптимизированном запросе из-за некорректных скриншотов, я обновил пути к скриншотам 4, 5.
+На скриншоте 5 видно, что idx_payment_date используется:
+```
+Index lookup on p using idx_payment_date (payment_date=r.rental_date), with index condition: (cast(p.payment_date as date) = '2005-07-30')  (cost=0.25 rows=1) (actual time=0.00133..0.00134 rows=0.04 loops=16044)
+```
+
+Если изменить where, то действительно получим ускорение выполнения запроса:
+
+```
+WHERE payment_date >= '2005-07-30' and payment_date < DATE_ADD('2005-07-30', INTERVAL 1 DAY)
+```
+
+```
+Index lookup on p using idx_payment_date (payment_date=r.rental_date)  (cost=0.25 rows=1) (actual time=0.00164..0.00194 rows=1.01 loops=634)
+```
+
+![Скриншот-6](https://github.com/n123tw/netology-sysadm-db-is/blob/main/12-05/img/4.jpg)
